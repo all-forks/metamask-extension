@@ -2851,15 +2851,15 @@
   resolved "https://registry.yarnpkg.com/@metamask/etherscan-link/-/etherscan-link-2.1.0.tgz#c0be8e68445b7b83cf85bcc03a56cdf8e256c973"
   integrity sha512-ADuWlTUkFfN2vXlz81Bg/0BA+XRor+CdK1055p6k7H6BLIPoDKn9SBOFld9haQFuR9cKh/JYHcnlSIv5R4fUEw==
 
-"@metamask/execution-environments@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@metamask/execution-environments/-/execution-environments-0.10.2.tgz#dfa4750a0eee4f51d9bc7e3c75a0e80a18798093"
-  integrity sha512-4bqDTk0oPRiju21M8KNaoxT8eiGaygyC2pldIrCDByfDqiIVkIpv8neol6EEH7ebMQkNiC4sr8IhfNFL7cJIdA==
+"@metamask/execution-environments@^0.10.2", "@metamask/execution-environments@^0.10.7":
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/@metamask/execution-environments/-/execution-environments-0.10.7.tgz#aedc37c9c371a7229600e74e62a0157690152f2c"
+  integrity sha512-jD8Bzqo/QiDHCbo8D9pvQE7TZNGQJLW0nkz5vY2wLoJ1kLLlyJzyjRU77oZCSZMW0feLZWRifalUQT5tOrGA8w==
   dependencies:
     "@metamask/object-multiplex" "^1.2.0"
     "@metamask/post-message-stream" "^4.0.0"
     "@metamask/providers" "^8.1.1"
-    "@metamask/snap-types" "^0.10.1"
+    "@metamask/snap-types" "^0.10.7"
     cross-fetch "^3.1.5"
     eth-rpc-errors "^4.0.3"
     pump "^3.0.0"
@@ -3010,12 +3010,12 @@
     lodash "^4.17.21"
 
 "@metamask/snap-controllers@^0.10.0", "@metamask/snap-controllers@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.10.2.tgz#0261ff82dd384f8a9398116967cfa2f7eb44b063"
-  integrity sha512-KFM7U6hCmUjevLK2hYUMcqRKtxK3/J2cI8uUbE1rx4zwBfDuN58RfI1s+69rZtblucqpnuqKs+Mc56lxb6+6oQ==
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.10.7.tgz#df4f049264bcc805c3a5876f6c298b2c37c6734e"
+  integrity sha512-wXuelvjLI06RSxZjCGCCCxxAAyA3djMcjwcjmPbrMPI/6X0neUjrIJrQ4LTBxX2GPzSfU/4z/gFTdAsqi5bHKg==
   dependencies:
     "@metamask/controllers" "^26.0.0"
-    "@metamask/execution-environments" "^0.10.2"
+    "@metamask/execution-environments" "^0.10.7"
     "@metamask/object-multiplex" "^1.1.0"
     "@metamask/obs-store" "^7.0.0"
     "@metamask/post-message-stream" "4.0.0"
@@ -3042,6 +3042,13 @@
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@metamask/snap-types/-/snap-types-0.10.1.tgz#dd170813d38091473f9ae1fd1e9d64c46666ba0c"
   integrity sha512-DsTAMSNmVWH/wXL4OWvnI4Wxh247d7PPD0jjxlMC3hEKB6hSdbCW3umwxqBCxgrU18gJOGwNJMygTolxO0SUrA==
+  dependencies:
+    "@metamask/controllers" "^26.0.0"
+
+"@metamask/snap-types@^0.10.7":
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-types/-/snap-types-0.10.7.tgz#a314ba1082e65a41bde021735bbc57034416aa53"
+  integrity sha512-AHOwQ/7SxDBRUSrdlWRa5X549mSM1MOl8iErOccxfKzuHdJjmIZIv1Ob34bgdMUxvhkt7ztFCW/lcObmdCIGjA==
   dependencies:
     "@metamask/controllers" "^26.0.0"
 
