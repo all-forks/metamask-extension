@@ -2788,9 +2788,9 @@
     web3-provider-engine "^16.0.3"
 
 "@metamask/design-tokens@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@metamask/design-tokens/-/design-tokens-1.4.2.tgz#023030f3eca181b10bf89c5813a9656f4e7e2852"
-  integrity sha512-kS63Tx+WOUloBTz4pDDG3DcisoXwaT+06/a2KTSDI0n1t3IQPLo1FCMsijqtYWFPfAI06tWOjtaslpFTB+dsAg==
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@metamask/design-tokens/-/design-tokens-1.11.0.tgz#c45d2951c976b9c906fd2a43323446248dbc1a09"
+  integrity sha512-1lZR8DoqKffBswMy3Jbp8z+zQTbRyi2k6XE9qhe4m5NZd9JfirH4tJzq740HC6Hvz/MI0I7MPJkNAkLPNx8ESA==
 
 "@metamask/eslint-config-jest@^9.0.0":
   version "9.0.0"
